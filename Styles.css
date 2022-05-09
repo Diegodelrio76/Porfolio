@@ -1,71 +1,48 @@
-*{margin: 0; padding: 0;}
+*{margin: 0; padding: 0; font-family: 'Titillium Web', sans-serif;}
 
-   nav {
-    display: inline;
-    padding-left: 3.75rem;
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 1.4rem;
-    font-weight: 600;
-    word-spacing: 1.5rem;
-    }
-
-.inicio {
-    text-decoration: none;
-    
+.navbar {
+    opacity: .8;
 }
-.icono {
-    display: block;
-    float:right;
-    padding-right: 1.87rem;
-    }
-.icono :hover {
-    transform: scale(1.1);
- }
-
-.icono2 {
-    display: block;
-    float: right;
-    padding-right: 5rem;
-    }
-.icono2 :hover {
-        transform: scale(1.1);
+.navbar-brand{
+    padding-left: 2.9rem;
 }
+.offcanvas-title {
+    text-align: left;
+}
+.logoNav {
+    padding-bottom: 2rem;
+}
+.nav-item {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
 
 .contenedor {
-    display: flexbox;
+    
     background-image: url(img/Fondo_portada.jpg);
     background-repeat: no-repeat;
-    padding-top: 1.25rem;
-    padding-bottom: 3.75rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
     background-color: #1d1d1d;
     
    }
 
 h1 {
-    font-family: 'Titillium Web', sans-serif;
     color: #faf7f4;
-    font-size: 7rem;
+    font-size: 7.4rem;
     font-weight: 700;
-    line-height: 5.7rem;
-    margin:3.3rem;
-    padding-top: 5rem;
-    }
+    line-height: 6.5rem;
+    margin:1.7rem;
+    padding-top: 10rem;
+    margin-right: 30rem;
+    margin-left: 4rem;
+    
+}
+
 
 body {
     background-color: #ffffff;
-    }
-.linksHeader {
-    color: #faf7f4;
-    font-size: 6.2rem;
-    }
-a:link {
-    color: #767676;
-    }
-a:visited {
-    color: #767676;
-    }
-a:hover {
-    color: #faf7f4;
     }
 
 .monograma {
@@ -95,6 +72,7 @@ header {
     color: #faf7f4;
     padding-left: 3.4rem;
     position: absolute;
+    padding-top:4rem;
     }
 
 .tituloAbout2 h2 {
@@ -105,7 +83,8 @@ header {
     position: absolute;
     opacity: .1;
     margin-top: -3.25rem;
-    margin-left: -.6rem
+    margin-left: -.6rem;
+    padding-top: 5rem;
     }
 
 .textoAbout {
@@ -423,6 +402,7 @@ h2 .texto {
 
 .bioma {
     padding: 0.6rem;
+    
     }
 
 footer {
@@ -434,30 +414,3 @@ footer {
 
 
 
-/* ver luego */
-/* .tapa img {
-    position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #052834;
-}
-.claudine:hover .tapa {
-    opacity: 1;
-}
-.texto {
-    color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-} */
